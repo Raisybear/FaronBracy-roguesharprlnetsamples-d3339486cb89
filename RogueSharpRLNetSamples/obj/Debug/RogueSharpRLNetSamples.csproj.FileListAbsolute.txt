@@ -12,3 +12,17 @@ C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSha
 C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.CopyComplete
 C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.exe
 C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.pdb
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\terminal8x8.png
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\RogueSharpRLNetSamples.exe.config
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\RogueSharpRLNetSamples.exe
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\RogueSharpRLNetSamples.pdb
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\OpenTK.dll
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\RLNET.dll
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\RogueSharp.dll
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\OpenTK.xml
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\bin\Debug\RogueSharp.xml
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.AssemblyReference.cache
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.CoreCompileInputs.cache
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.CopyComplete
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.exe
+C:\Users\elias\Source\Repos\LA1304RPG\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.pdb

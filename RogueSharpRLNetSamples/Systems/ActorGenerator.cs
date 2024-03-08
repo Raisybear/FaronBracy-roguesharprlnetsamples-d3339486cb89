@@ -35,9 +35,9 @@ namespace RogueSharpRLNetSamples.Systems
                Defense = 2,
                DefenseChance = 40,
                Gold = 0,
-               Health = 100,
-               MaxHealth = 100,
-               Name = "Rogue",
+               Health = 25,     // 100
+               MaxHealth = 25,  // 100
+               Name = "Ala",    // Rogue
                Speed = 10,
                Symbol = '@'
             };

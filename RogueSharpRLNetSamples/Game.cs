@@ -9,10 +9,10 @@ namespace RogueSharpRLNetSamples
 {
    public static class Game
    {
-      private static readonly int _screenWidth = 100;
-      private static readonly int _screenHeight = 70;
-      private static readonly int _mapWidth = 80;
-      private static readonly int _mapHeight = 48;
+      private static readonly int _screenWidth = 100; //100
+      private static readonly int _screenHeight = 70; //70
+      private static readonly int _mapWidth = 80; //80
+      private static readonly int _mapHeight = 48; //48
       private static readonly int _messageWidth = 80;
       private static readonly int _messageHeight = 11;
       private static readonly int _statWidth = 20;
@@ -50,10 +50,10 @@ namespace RogueSharpRLNetSamples
 
          Player = new Player();
          SchedulingSystem = new SchedulingSystem();
-
-         MapGenerator mapGenerator = new MapGenerator( _mapWidth, _mapHeight, 20, 13, 7, _mapLevel );
+                                                                             //20 //13 //7
+         MapGenerator mapGenerator = new MapGenerator( _mapWidth, _mapHeight, 30, 20, 7, _mapLevel );
          DungeonMap = mapGenerator.CreateMap();
-
+                                                                                     //8 //8
          _rootConsole = new RLRootConsole( fontFileName, _screenWidth, _screenHeight, 8, 8, 1f, consoleTitle );
          _mapConsole = new RLConsole( _mapWidth, _mapHeight );
          _messageConsole = new RLConsole( _messageWidth, _messageHeight );
