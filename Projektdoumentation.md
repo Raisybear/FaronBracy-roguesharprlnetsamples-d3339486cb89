@@ -44,8 +44,6 @@ ________________________________________________________________________________
 
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
 Gruppe: Spycher, Sacher und Hitz
 
 | Datum | Version | Zusammenfassung                                              |
