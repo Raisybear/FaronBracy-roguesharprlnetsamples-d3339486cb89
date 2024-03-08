@@ -38,6 +38,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+-------------------------------------------------------------------------------------------------------------------------------
+| /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// |
+-------------------------------------------------------------------------------------------------------------------------------
+
 # Projekt-Dokumentation
 
 ☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
