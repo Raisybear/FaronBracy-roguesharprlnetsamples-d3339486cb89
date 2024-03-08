@@ -1,0 +1,14 @@
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\terminal8x8.png
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\RogueSharpRLNetSamples.exe.config
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\RogueSharpRLNetSamples.exe
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\RogueSharpRLNetSamples.pdb
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\OpenTK.dll
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\RLNET.dll
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\RogueSharp.dll
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\OpenTK.xml
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\bin\Debug\RogueSharp.xml
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.AssemblyReference.cache
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.CoreCompileInputs.cache
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.csproj.CopyComplete
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.exe
+C:\Users\elias\Downloads\FaronBracy-roguesharprlnetsamples-d3339486cb89\RogueSharpRLNetSamples\obj\Debug\RogueSharpRLNetSamples.pdb
