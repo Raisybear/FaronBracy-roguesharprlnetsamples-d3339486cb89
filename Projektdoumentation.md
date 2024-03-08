@@ -64,9 +64,9 @@ In diesem Projekt erweitern wir ein RPG.
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1.1  | Muss            | Funktional | Als User möchte ich eine Benachrichtigung erhalten, wenn ich keine Leben mehr habe, damit ich weiss, dass ich verloren habe. |
 | 2.1  | Muss            | Funktional | Als User möchte ich, dass die Steuerungstasten w,a,s,d sind, damit ich meine Figur steuern kann.|
-| 3.1  |                 | Funktional | Als User möchte ich, dass die Spielfigur 100 Lebenspunkte hat, damit man nicht direkt sterben kann:                                   |
-| 4.1  |                 |      |                                    |
-| 5.1  |                 |      |                                    |
+| 3.1  | Muss            | Funktional | Als User möchte ich, dass die Spielfigur 25 statt 100 Lebenspunkte hat, damit man weniger überlebt                      |
+| 4.1  | Muss            | Funktional | Als User möchte ich, dass ich nach jedem Benutzen der Treppe geheilt werde, damit ich nicht sterbe.                    |
+| 5.1  | Muss            | Funktional | Als User möchte ich, dass mir kurz erklärt wird, was die Items machen, um zu wissen für was ich diese Verwenden kann.   |
 | 6.1  |                 |      |                                    |
 | 7.1  |                 |      |                                    |
 | 8.1  |                 |      |                                    |
@@ -89,7 +89,6 @@ In diesem Projekt erweitern wir ein RPG.
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
