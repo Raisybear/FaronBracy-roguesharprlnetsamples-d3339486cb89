@@ -42,7 +42,7 @@ SOFTWARE.
 
 ☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Gruppe: Spycher, Sacher und Hitz
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -54,14 +54,25 @@ SOFTWARE.
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+In diesem Projekt erweitern wir ein RPG.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1.1  | Muss            | Funktional | Als User möchte ich eine Benachrichtigung erhalten, wenn ich keine Leben mehr habe, damit ich weiss, dass ich verloren habe. |
+| 2.1  | Muss            | Funktional | Als User möchte ich, dass die Steuerungstasten w,a,s,d sind, damit ich meine Figur steuern kann.|
+| 3.1  |                 | Funktional | Als User möchte ich, dass die Spielfigur 100 Lebenspunkte hat, damit man nicht direkt sterben kann:                                   |
+| 4.1  |                 |      |                                    |
+| 5.1  |                 |      |                                    |
+| 6.1  |                 |      |                                    |
+| 7.1  |                 |      |                                    |
+| 8.1  |                 |      |                                    |
+| 9.1  |                 |      |                                    |
+| 10.1 |                 |      |                                    |
+| 11.1 |                 |      |                                    |
+| 12.1 |                 |      |                                    |
+| 13.1 |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
