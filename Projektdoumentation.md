@@ -3,7 +3,6 @@
 Dieses Projekt handelt um einen RPG, Diesen RPG haben wir schon vorgebaut von ... kopiert und mit unseren Eigenen Funktionen erweitert.
 
 Hier ist dies ersichtlich: [https://bitbucket.org/FaronBracy/roguesharprlnetsamples/downloads/?tab=branches]
-[https://roguesharp.wordpress.com/2015/02/15/using-roguesharp-with-rlnet-console/](https://roguesharp.wordpress.com/2015/02/15/using-roguesharp-with-rlnet-console/ "Creating a Roguelike Game in C#")
 
 
 ## Additional Resources ##
