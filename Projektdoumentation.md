@@ -51,7 +51,7 @@ Gruppe: Spycher ELias, Sacher Robin und Hitz Julian
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|   08.03.2024    | 1.0.0   |  |
+|   08.03.2024    | 1.0.0   | Das Projekt wurde auf Github hochgeladen von uns  |
 |   15.03.2024    | 1.0.0     |                                                              |
 |   22.03.2024    | 1.0.0   |                                                              |
 
