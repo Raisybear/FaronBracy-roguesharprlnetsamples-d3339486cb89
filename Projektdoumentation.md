@@ -2,7 +2,7 @@
 
 Dieses Projekt handelt um einen RPG, Diesen RPG haben wir schon vorgebaut von ... kopiert und mit unseren Eigenen Funktionen erweitert.
 
-Hier ist dies ersichtlich: (https://bitbucket.org/FaronBracy/roguesharprlnetsamples/downloads/?tab=branches)
+[Hier ist dies ersichtlich](https://bitbucket.org/FaronBracy/roguesharprlnetsamples/downloads/?tab=branches)
 
 
 ## Additional Resources ##
@@ -51,9 +51,11 @@ Gruppe: Spycher ELias, Sacher Robin und Hitz Julian
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|   08.03.2024    | 1.0.0   | Das Projekt wurde auf Github hochgeladen von uns  |
-|   15.03.2024    | 1.0.0     |                                                              |
+|   08.03.2024    | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben  |
+|   15.03.2024    | 1.0.1     |                                                              |
 |   22.03.2024    | 1.0.0   |                                                              |
+|   05.04.2024    | 1.0.0   |                                                              |
+|   26.04.2024    | 1.0.0   |                                                              |
 
 ## 1 Informieren
 
