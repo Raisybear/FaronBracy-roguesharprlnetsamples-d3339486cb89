@@ -1,5 +1,9 @@
-# Purpose #
-This repository is meant to serve as a set of sample projects for using the RogueSharp library with RLNET. It is also meant to supplement the tutorials found at [https://roguesharp.wordpress.com/2015/02/15/using-roguesharp-with-rlnet-console/](https://roguesharp.wordpress.com/2015/02/15/using-roguesharp-with-rlnet-console/ "Creating a Roguelike Game in C#")
+# Übersicht #
+
+Dieses Projekt handelt um einen RPG, Diesen RPG haben wir schon vorgebaut von ... kopiert und mit unseren Eigenen Funktionen erweitert.
+
+Hier ist dies ersichtlich: [https://bitbucket.org/FaronBracy/roguesharprlnetsamples/downloads/?tab=branches]
+[https://roguesharp.wordpress.com/2015/02/15/using-roguesharp-with-rlnet-console/](https://roguesharp.wordpress.com/2015/02/15/using-roguesharp-with-rlnet-console/ "Creating a Roguelike Game in C#")
 
 
 ## Additional Resources ##
@@ -44,13 +48,13 @@ ________________________________________________________________________________
 
 # Projekt-Dokumentation
 
-Gruppe: Spycher, Sacher und Hitz
+Gruppe: Spycher ELias, Sacher Robin und Hitz Julian
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|   08.03.2024    | 1.0.0   |  |
+|   15.03.2024    | 1.0.0     |                                                              |
+|   22.03.2024    | 1.0.0   |                                                              |
 
 ## 1 Informieren
 
