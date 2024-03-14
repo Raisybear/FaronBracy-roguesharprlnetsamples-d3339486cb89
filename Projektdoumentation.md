@@ -71,15 +71,14 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 2.1  | Muss            | Funktional | Als User möchte ich, dass die Steuerungstasten w,a,s,d statt Pfeiltasten sind, damit ich meine Figur steuern kann.|
 | 3.1  | Muss            | Funktional | Als User möchte ich, dass die Spielfigur 25 statt 100 Lebenspunkte hat, damit man weniger überlebt                      |
 | 4.1  | Muss            | Funktional | Als User möchte ich, dass ich nach jedem Benutzen der Treppe geheilt werde, damit ich nicht sterbe.                    |
-| 5.1  | Kann            | Funktional | Als User möchte ich, dass mir kurz erklärt wird, was die Items machen, um zu wissen für was ich diese Verwenden kann.   |
-| 6.1  | Muss            | Funktional | Als User möchte ich, dass es eine Storyline gibt, um zu wissen warum ich in dem Dungeon bin.                                 |
-| 7.1  |                 |      |                                    |
-| 8.1  |                 |      |                                    |
-| 9.1  |                 |      |                                    |
-| 10.1 |                 |      |                                    |
-| 11.1 |                 |      |                                    |
-| 12.1 |                 |      |                                    |
-| 13.1 |                 |      |                                    |
+| 5.1  | Kann            | Qualität   | Als User möchte ich, dass mir kurz erklärt wird, was die Items machen, um zu wissen für was ich diese Verwenden kann.   |
+| 6.1  | Kann            | Qualität   | Als User möchte ich, dass es eine Storyline gibt, um zu wissen warum ich in dem Dungeon bin.                                 |t
+| 7.1  | Muss            | Funktional | Als User möchte ich, dass nach 10 Levels, den Endboss bekämpfen muss, um das Spiel zu Beenden                 |
+| 7.2  | Muss            | Funktional | Als User möchte ich einen Drachen im Spiel haben, der als Endboss dient, damit ich ein schwieriges Ende habe.         |
+| 8.1  | Kann            | Funktional | Als User möchte ich einen Shop haben, um mein Gold verwenden zu können                                   |
+| 8.2  | Kann            | Funktional | Als User möchte ich im Shop ein Heiltrank kaufen können, um mich zu heilen                                   |
+| 8.3  | Kann            | Funktional | Als User möchte ich, dass man zufällige schon implementierte Items im SHop kaufen kann, um stärker zu werden.        |
+| 9.1  | Muss            | Funktional | Als User möchte ich, dass es Fallen gibt auf der Map, um ein weiteres Hinderniss zu haben.                                   |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
