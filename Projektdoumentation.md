@@ -108,8 +108,18 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.1.A  |   22.03.2024    |           |              |               |
+| 2.1.B  |       |           |              |               |
+| 3.1.C  |       |           |              |               |
+| 4.1.D  |       |           |              |               |
+| 5.1.E  |       |           |              |               |
+| 6.1.F  |       |           |              |               |
+| 7.1.G  |       |           |              |               |
+| 7.2.H  |       |           |              |               |
+| 8.1.I  |       |           |              |               |
+| 8.2.J  |       |           |              |               |
+| 8.3.K  |       |           |              |               |
+| 9.1.L  |       |           |              |               |
 
 Total:
 
