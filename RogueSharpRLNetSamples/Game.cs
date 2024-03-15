@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 using RLNET;
 using RogueSharp.Random;
 using RogueSharpRLNetSamples.Core;
@@ -19,7 +20,7 @@ namespace RogueSharpRLNetSamples
       private static readonly int _statHeight = 70;
       private static readonly int _inventoryWidth = 80;
       private static readonly int _inventoryHeight = 11;
-
+        
       private static RLRootConsole _rootConsole;
       private static RLConsole _mapConsole;
       private static RLConsole _messageConsole;
@@ -40,7 +41,7 @@ namespace RogueSharpRLNetSamples
       public static void Main()
       {
          string fontFileName = "terminal8x8.png";
-         string consoleTitle = "RougeSharp RLNet Tutorial - Level 1";
+         string consoleTitle = "RougeSharp Level 1";
 
          int seed = (int) DateTime.UtcNow.Ticks;
          Random = new DotNetRandom( seed );
@@ -70,6 +71,7 @@ namespace RogueSharpRLNetSamples
          _rootConsole.Update += OnRootConsoleUpdate;
          _rootConsole.Render += OnRootConsoleRender;
          _rootConsole.Run();
+
       }
 
       private static void OnRootConsoleUpdate( object sender, UpdateEventArgs e )
