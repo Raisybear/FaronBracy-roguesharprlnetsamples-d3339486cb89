@@ -116,7 +116,7 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.1.A  |   26.04.2024    |           |       Implemntierung des Todes, des Heros       |        90       |
-| 2.1.B  |   26.04.2024    |           |       Bedienung des Characters von Pfeiltasten auf W A S D       |       45        |
+| 2.1.B  |   26.04.2024    |     Elias Spycher      |       Bedienung des Characters von Pfeiltasten auf W A S D       |       45        |
 | 3.1.C  |   26.04.2024    |           |       Einstellung der HP       |               |
 | 4.1.D  |   26.04.2024    |           |       Healing bei Betreten von neuem Level       |               |
 | 5.1.E  |   26.04.2024    |           |       Items Erklärungen       |               |
@@ -142,7 +142,7 @@ Total:
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 2.1.B|   15.03.2024    |     Elias Spycher      |       45        |          10         |
 | ...  |       |           |               |                   |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
