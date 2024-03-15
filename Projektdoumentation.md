@@ -52,7 +52,7 @@ SOFTWARE.
 | Datum      | Version | Zusammenfassung                                                   |
 | ---------- | ------- | ----------------------------------------------------------------- |
 | 08.03.2024 | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben, Testfälle erstellt     |
-| 15.03.2024 | 1.0.1   | Dragon als Monster hnzugefügt, Neustart des Spiels nach dem tod, Arbeitspakete, Use Case Diagramm                                                                  |
+| 15.03.2024 | 1.0.1   | Dragon als Monster hnzugefügt, Neustart des Spiels nach dem Tod, Arbeitspakete, Use Case Diagramm                                                                  |
 | 22.03.2024 | 1.0.0   |                                                                   |
 | 05.04.2024 | 1.0.0   |                                                                   |
 | 26.04.2024 | 1.0.0   |                                                                   |
