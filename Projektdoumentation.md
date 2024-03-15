@@ -52,7 +52,7 @@ SOFTWARE.
 | Datum      | Version | Zusammenfassung                                                   |
 | ---------- | ------- | ----------------------------------------------------------------- |
 | 08.03.2024 | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben |
-| 15.03.2024 | 1.0.1   |                                                                   |
+| 15.03.2024 | 1.0.1   | Testfälle erstellt                                                |
 | 22.03.2024 | 1.0.0   |                                                                   |
 | 05.04.2024 | 1.0.0   |                                                                   |
 | 26.04.2024 | 1.0.0   |                                                                   |
