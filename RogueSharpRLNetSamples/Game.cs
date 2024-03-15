@@ -41,6 +41,7 @@ namespace RogueSharpRLNetSamples
       {
          string fontFileName = "terminal8x8.png";
          string consoleTitle = "RougeSharp RLNet Tutorial - Level 1";
+
          int seed = (int) DateTime.UtcNow.Ticks;
          Random = new DotNetRandom( seed );
 
