@@ -1,16 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\RogueSharpRLNetSamples",
-    "\\RogueSharpRLNetSamples\\Abilities",
-    "\\RogueSharpRLNetSamples\\Behaviors",
-    "\\RogueSharpRLNetSamples\\Core",
-    "\\RogueSharpRLNetSamples\\Equipment",
-    "\\RogueSharpRLNetSamples\\Interfaces",
-    "\\RogueSharpRLNetSamples\\Items",
-    "\\RogueSharpRLNetSamples\\Monsters",
-    "\\RogueSharpRLNetSamples\\Properties"
+    ""
   ],
-  "SelectedNode": "\\RogueSharpRLNetSamples\\RogueSharpRLNetSamples.csproj",
+  "SelectedNode": "\\C:\\Users\\robin\\Source\\Repos\\LA1304RPG",
   "PreviewInSolutionExplorer": false
 }

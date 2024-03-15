@@ -14,6 +14,7 @@ namespace RogueSharpRLNetSamples.Systems
          monsterPool.Add( Kobold.Create( level ), 25 );
          monsterPool.Add( Ooze.Create( level ), 25 );
          monsterPool.Add( Goblin.Create( level ), 50 );
+         monsterPool.Add( Dragon.Create( level ), 100 ); 
 
          Monster monster = monsterPool.Get();
          monster.X = location.X;
