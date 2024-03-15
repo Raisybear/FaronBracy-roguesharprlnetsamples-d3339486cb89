@@ -109,6 +109,8 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 
 ### 1.4 Diagramme
 
+![RPG Game](https://github.com/Raisybear/LA1304RPG/assets/110891559/bbf4da93-7f0f-4336-983f-4b87f9a1b8ba)
+
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
