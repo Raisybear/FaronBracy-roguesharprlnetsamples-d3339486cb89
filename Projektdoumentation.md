@@ -104,6 +104,10 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 8.2.1 | Spiel gestartet und im Shopmenu                  | Auswahl des Heiltranks und Kauf des Heiltranks                                       | Heiltrank wird dem Inventar hinzugefügt                                |
 | 8.3.1 | Spiel gestartet und im Shopmenu                  | Auswahl eines durch Zufall im Shop angebotenem Items und Kauf des ausgewählten Items | Das Item wird dem Inventar hinzugefügt                                 |
 | 9.1   | Spiel gestartet und erreichen des 5ten Levels    | Eine Falle wird ausgelöst                                                            | dem Spieler werden 5 Lebenspunkte abgezogen                            |
+| 10.1   | Gift Fähigkeit erhalten                    | Gift Fähigkeit aktiviert                                                                  | Gifteffekt um Spieler                                |
+| 11.1   | Level 5 betreten                           | In Schadensfalle hineingelaufen                                                           | Lebensabzug                                       |
+| 12.1   | Level 5 betreten                           | In Schadensfalle hineingelaufen                                                           | Betäubt für 2 Runden                             |
+| 13.1   |                  |                                                                                      | Du hast all deine Leben verloren                                       |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
