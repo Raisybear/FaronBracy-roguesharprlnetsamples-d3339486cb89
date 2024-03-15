@@ -79,6 +79,11 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 8.2  | Kann            | Funktional | Als User möchte ich im Shop ein Heiltrank kaufen können, um mich zu heilen                                                                  |
 | 8.3  | Kann            | Funktional | Als User möchte ich, dass man zufällige schon implementierte Items im SHop kaufen kann, um stärker zu werden.                               |
 | 9.1  | Muss            | Funktional | Als User möchte ich, dass es ab dem Level 5 Fallen auf der Map gibt, um ein weiteres Hinderniss zu haben.                                   |
+| 10.1 | Kann            | Funktional | Als User möchte ich, dass eine Gift Fähigkeit gibt, damit ich die Gegner besser besiegen kann.                                              |
+| 11.1  | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die Lebenspunkte abzieht, damit es schwieriger wird.                                          |
+| 12.1  | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die meine Spielfigur für zwei Runden bewegungsunfähig macht, damit es schwieriger wird.|
+| 13.1  | Kann            | Funktional | Als User möchte ich, dass es eine kleine Chance gibt, dass ich mit einem Angriff extra Schaden machen kann, damit die Kämpfe spannender werden.|
+| 14.1  | Kann            | Funktional |                                                                  |
 
 ### 1.3 Testfälle
 
