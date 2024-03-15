@@ -10,6 +10,7 @@ namespace RogueSharpRLNetSamples.Systems
 
         public static Monster CreateMonster(int level, Point location)
         {
+            //spawn normal monster based on level
             Pool<Monster> monsterPool = new Pool<Monster>();
             if (level < 10)
             {
@@ -19,6 +20,7 @@ namespace RogueSharpRLNetSamples.Systems
                 monsterPool.Add(Dragon.Create(level), 100);
             }
 
+            //spawn only overpowered dragons on the final level
             else if(level == 10)
             {
                 monsterPool.Add(Dragon.Create(level), 100);

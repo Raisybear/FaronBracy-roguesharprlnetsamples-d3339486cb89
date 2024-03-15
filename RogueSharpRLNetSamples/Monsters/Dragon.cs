@@ -7,10 +7,12 @@ namespace RogueSharpRLNetSamples.Monsters
     {
         public static Dragon Create(int level)
         {
+            //easy dragons for the first 9 levels
             if (level < 10)
             {
                 int health = 0;
                 int gold = 0;
+
                 for (int i = 0; i < level; i++)
                 {
                     health++;
@@ -34,10 +36,12 @@ namespace RogueSharpRLNetSamples.Monsters
                 };
             }
 
+            //overpowered dragons for the final level
             else
             {
                 int health = 20;
                 int gold = 999;
+
                 return new Dragon
                 {
                     Attack = Dice.Roll("1D2") + level / 2,
