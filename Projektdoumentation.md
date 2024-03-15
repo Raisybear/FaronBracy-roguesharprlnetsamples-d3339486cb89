@@ -70,7 +70,7 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 1.1  | Muss            | Funktional | Als User möchte ich eine Benachrichtigung erhalten, wenn ich keine Leben mehr habe, damit ich weiss, dass ich verloren habe.                |
 | 2.1  | Muss            | Funktional | Als User möchte ich, dass die Steuerungstasten w,a,s,d statt Pfeiltasten sind, damit ich meine Figur steuern kann.                          |
 | 3.1  | Muss            | Funktional | Als User möchte ich, dass die Spielfigur 25 statt 100 Lebenspunkte hat, damit man weniger überlebt                                          |
-| 4.1  | Muss            | Funktional | Als User möchte ich, dass ich nach jedem Benutzen der Treppe um 15 Lebenspunkte geheilt werde, damit ich nicht am Anfang des Spiels sterbe. |
+| 4.1  | Muss            | Funktional | Als User möchte ich, dass ich nach jedem Benutzen der Treppe um 10 Lebenspunkte geheilt werde, damit ich nicht am Anfang des Spiels sterbe. |
 | 5.1  | Kann            | Qualität   | Als User möchte ich, dass mir kurz erklärt wird, was die Items machen, um zu wissen für was ich diese Verwenden kann.                       |
 | 6.1  | Kann            | Qualität   | Als User möchte ich, dass es eine Storyline gibt, um zu wissen warum ich in dem Dungeon bin.                                                |
 | 7.1  | Muss            | Funktional | Als User möchte ich, dass nach 10 Levels, den Endboss bekämpfen muss, um das Spiel zu Beenden                                               |
@@ -113,18 +113,18 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.1.A  |   22.03.2024    |           |              |               |
-| 2.1.B  |       |           |              |               |
-| 3.1.C  |       |           |              |               |
-| 4.1.D  |       |           |              |               |
-| 5.1.E  |       |           |              |               |
-| 6.1.F  |       |           |              |               |
-| 7.1.G  |       |           |              |               |
-| 7.2.H  |       |           |              |               |
-| 8.1.I  |       |           |              |               |
-| 8.2.J  |       |           |              |               |
-| 8.3.K  |       |           |              |               |
-| 9.1.L  |       |           |              |               |
+| 1.1.A  |   26.04.2024    |           |       Implemntierung des Todes, des Heros       |        90       |
+| 2.1.B  |   26.04.2024    |           |       Bedienung des Characters von Pfeiltasten auf W A S D       |       45        |
+| 3.1.C  |   26.04.2024    |           |       Einstellung der HP       |               |
+| 4.1.D  |   26.04.2024    |           |       Healing bei Betreten von neuem Level       |               |
+| 5.1.E  |   26.04.2024    |           |       Items Erklärungen       |               |
+| 6.1.F  |   26.04.2024    |           |              |               |
+| 7.1.G  |   26.04.2024    |           |              |               |
+| 7.2.H  |   26.04.2024    |           |              |               |
+| 8.1.I  |   26.04.2024    |           |              |               |
+| 8.2.J  |   26.04.2024    |           |              |               |
+| 8.3.K  |   26.04.2024    |           |              |               |
+| 9.1.L  |   26.04.2024    |           |              |               |
 
 Total:
 
