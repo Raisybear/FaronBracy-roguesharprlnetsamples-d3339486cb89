@@ -19,6 +19,7 @@ namespace RogueSharpRLNetSamples.Core
       public static RLColor GoblinColor = RLColor.Green;
       public static RLColor KoboldColor = new RLColor( 255, 165, 0 );
       public static RLColor OozeColor = new RLColor( 102, 205, 170 );
+      public static RLColor DragonColor = new RLColor(159, 53, 212);
       public static RLColor Player = Swatch.DbLight;
       public static RLColor InventoryHeading = Swatch.DbLight;
    }

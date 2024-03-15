@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using RLNET;
 using RogueSharp;
 using RogueSharp.DiceNotation;
@@ -6,6 +8,7 @@ using RogueSharpRLNetSamples.Core;
 using RogueSharpRLNetSamples.Equipment;
 using RogueSharpRLNetSamples.Interfaces;
 using RogueSharpRLNetSamples.Items;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace RogueSharpRLNetSamples.Systems
 {
@@ -192,6 +195,8 @@ namespace RogueSharpRLNetSamples.Systems
          if ( defender is Player )
          {
             Game.MessageLog.Add( $"  {defender.Name} was killed, GAME OVER MAN!" );
+
+                Game.ResetAndRestartGame();
          }
          else if ( defender is Monster )
          {

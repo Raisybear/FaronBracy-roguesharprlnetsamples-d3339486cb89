@@ -38,6 +38,15 @@ namespace RogueSharpRLNetSamples
       public static TargetingSystem TargetingSystem { get; private set; }
       public static IRandom Random { get; private set; }
 
+      public static void ResetAndRestartGame()
+      {
+         // Zurücksetzen der Konsole
+         Console.Clear();
+
+         // Starten einer neuen Instanz des Spiels
+         Main();
+      }
+
       public static void Main()
       {
          string fontFileName = "terminal8x8.png";
@@ -91,19 +100,19 @@ namespace RogueSharpRLNetSamples
          {
             if ( keyPress != null )
             {
-               if ( keyPress.Key == RLKey.Up )
+               if ( keyPress.Key == RLKey.W )
                {
                   didPlayerAct = CommandSystem.MovePlayer( Direction.Up );
                }
-               else if ( keyPress.Key == RLKey.Down )
+               else if ( keyPress.Key == RLKey.S )
                {
                   didPlayerAct = CommandSystem.MovePlayer( Direction.Down );
                }
-               else if ( keyPress.Key == RLKey.Left )
+               else if ( keyPress.Key == RLKey.A )
                {
                   didPlayerAct = CommandSystem.MovePlayer( Direction.Left );
                }
-               else if ( keyPress.Key == RLKey.Right )
+               else if ( keyPress.Key == RLKey.D )
                {
                   didPlayerAct = CommandSystem.MovePlayer( Direction.Right );
                }
