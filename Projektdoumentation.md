@@ -49,13 +49,13 @@ SOFTWARE.
 - Sacher Robin
 - Hitz Julian
 
-| Datum      | Version | Zusammenfassung                                                   |
-| ---------- | ------- | ----------------------------------------------------------------- |
-| 08.03.2024 | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben, Testfälle erstellt     |
-| 15.03.2024 | 1.0.1   | Dragon als Monster hnzugefügt, Neustart des Spiels nach dem Tod, Arbeitspakete, Use Case Diagramm                                                                  |
-| 22.03.2024 | 1.0.0   |                                                                   |
-| 05.04.2024 | 1.0.0   |                                                                   |
-| 26.04.2024 | 1.0.0   |                                                                   |
+| Datum      | Version | Zusammenfassung                                                                                   |
+| ---------- | ------- | ------------------------------------------------------------------------------------------------- |
+| 08.03.2024 | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben, Testfälle erstellt             |
+| 15.03.2024 | 1.0.1   | Dragon als Monster hnzugefügt, Neustart des Spiels nach dem Tod, Arbeitspakete, Use Case Diagramm |
+| 22.03.2024 | 1.0.0   |                                                                                                   |
+| 05.04.2024 | 1.0.0   |                                                                                                   |
+| 26.04.2024 | 1.0.0   |                                                                                                   |
 
 ## 1 Informieren
 
@@ -65,25 +65,25 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 
 ### 1.2 User Stories
 
-| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                                                |
-| ---- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1.1  | Muss            | Funktional | Als User möchte ich eine Benachrichtigung erhalten, wenn ich keine Leben mehr habe, damit ich weiss, dass ich verloren habe.                |
-| 2.1  | Muss            | Funktional | Als User möchte ich, dass die Steuerungstasten w,a,s,d statt Pfeiltasten sind, damit ich meine Figur steuern kann.                          |
-| 3.1  | Muss            | Funktional | Als User möchte ich, dass die Spielfigur 25 statt 100 Lebenspunkte hat, damit man weniger überlebt                                          |
-| 4.1  | Muss            | Funktional | Als User möchte ich, dass ich nach jedem Benutzen der Treppe um 10 Lebenspunkte geheilt werde, damit ich nicht am Anfang des Spiels sterbe. |
-| 5.1  | Kann            | Qualität   | Als User möchte ich, dass mir kurz erklärt wird, was die Items machen, um zu wissen für was ich diese Verwenden kann.                       |
-| 6.1  | Kann            | Qualität   | Als User möchte ich, dass es eine Storyline gibt, um zu wissen warum ich in dem Dungeon bin.                                                |
-| 7.1  | Muss            | Funktional | Als User möchte ich, dass nach 10 Levels, den Endboss bekämpfen muss, um das Spiel zu Beenden                                               |
-| 7.2  | Muss            | Funktional | Als User möchte ich einen Drachen im Spiel haben, der als Endboss dient, damit ich ein schwieriges Ende habe.                               |
-| 8.1  | Kann            | Funktional | Als User möchte ich einen Shop haben, um mein Gold verwenden zu können                                                                      |
-| 8.2  | Kann            | Funktional | Als User möchte ich im Shop ein Heiltrank kaufen können, um mich zu heilen                                                                  |
-| 8.3  | Kann            | Funktional | Als User möchte ich, dass man zufällige schon implementierte Items im SHop kaufen kann, um stärker zu werden.                               |
-| 9.1  | Muss            | Funktional | Als User möchte ich, dass es ab dem Level 5 Fallen auf der Map gibt, um ein weiteres Hinderniss zu haben.                                   |
-| 10.1 | Kann            | Funktional | Als User möchte ich, dass eine Gift Fähigkeit gibt, damit ich die Gegner besser besiegen kann.                                              |
-| 11.1  | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die Lebenspunkte abzieht, damit es schwieriger wird.                                          |
-| 12.1  | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die meine Spielfigur für zwei Runden bewegungsunfähig macht, damit es schwieriger wird.|
-| 13.1  | Kann            | Funktional | Als User möchte ich, dass es eine kleine Chance gibt, dass ich mit einem Angriff extra Schaden machen kann, damit die Kämpfe spannender werden.|
-| 14.1  | Kann            | Funktional |                                                                  |
+| US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                                                    |
+| ---- | --------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.1  | Muss            | Funktional | Als User möchte ich eine Benachrichtigung erhalten, wenn ich keine Leben mehr habe, damit ich weiss, dass ich verloren habe.                    |
+| 2.1  | Muss            | Funktional | Als User möchte ich, dass die Steuerungstasten w,a,s,d statt Pfeiltasten sind, damit ich meine Figur steuern kann.                              |
+| 3.1  | Muss            | Funktional | Als User möchte ich, dass die Spielfigur 25 statt 100 Lebenspunkte hat, damit man weniger überlebt                                              |
+| 4.1  | Muss            | Funktional | Als User möchte ich, dass ich nach jedem Benutzen der Treppe um 10 Lebenspunkte geheilt werde, damit ich nicht am Anfang des Spiels sterbe.     |
+| 5.1  | Kann            | Qualität   | Als User möchte ich, dass mir kurz erklärt wird, was die Items machen, um zu wissen für was ich diese Verwenden kann.                           |
+| 6.1  | Kann            | Qualität   | Als User möchte ich, dass es eine Storyline gibt, um zu wissen warum ich in dem Dungeon bin.                                                    |
+| 7.1  | Muss            | Funktional | Als User möchte ich, dass nach 10 Levels, den Endboss bekämpfen muss, um das Spiel zu Beenden                                                   |
+| 7.2  | Muss            | Funktional | Als User möchte ich einen Drachen im Spiel haben, der als Endboss dient, damit ich ein schwieriges Ende habe.                                   |
+| 8.1  | Kann            | Funktional | Als User möchte ich einen Shop haben, um mein Gold verwenden zu können                                                                          |
+| 8.2  | Kann            | Funktional | Als User möchte ich im Shop ein Heiltrank kaufen können, um mich zu heilen                                                                      |
+| 8.3  | Kann            | Funktional | Als User möchte ich, dass man zufällige schon implementierte Items im SHop kaufen kann, um stärker zu werden.                                   |
+| 9.1  | Muss            | Funktional | Als User möchte ich, dass es ab dem Level 5 Fallen auf der Map gibt, um ein weiteres Hinderniss zu haben.                                       |
+| 10.1 | Kann            | Funktional | Als User möchte ich, dass eine Gift Fähigkeit gibt, damit ich die Gegner besser besiegen kann.                                                  |
+| 11.1 | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die Lebenspunkte abzieht, damit es schwieriger wird.                                              |
+| 12.1 | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die meine Spielfigur für zwei Runden bewegungsunfähig macht, damit es schwieriger wird.           |
+| 13.1 | Kann            | Funktional | Als User möchte ich, dass es eine kleine Chance gibt, dass ich mit einem Angriff extra Schaden machen kann, damit die Kämpfe spannender werden. |
+| 14.1 | Kann            | Funktional |                                                                                                                                                 |
 
 ### 1.3 Testfälle
 
@@ -104,10 +104,10 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 8.2.1 | Spiel gestartet und im Shopmenu                  | Auswahl des Heiltranks und Kauf des Heiltranks                                       | Heiltrank wird dem Inventar hinzugefügt                                |
 | 8.3.1 | Spiel gestartet und im Shopmenu                  | Auswahl eines durch Zufall im Shop angebotenem Items und Kauf des ausgewählten Items | Das Item wird dem Inventar hinzugefügt                                 |
 | 9.1   | Spiel gestartet und erreichen des 5ten Levels    | Eine Falle wird ausgelöst                                                            | dem Spieler werden 5 Lebenspunkte abgezogen                            |
-| 10.1   | Gift Fähigkeit erhalten                    | Gift Fähigkeit aktiviert                                                                  | Gifteffekt um Spieler                                |
-| 11.1   | Level 5 betreten                           | In Schadensfalle hineingelaufen                                                           | Lebensabzug                                       |
-| 12.1   | Level 5 betreten                           | In Betäubungsfalle hineingelaufen                                                           | Betäubt für 2 Runden                             |
-| 13.1   |                  |                                                                                      | Du hast all deine Leben verloren                                       |
+| 10.1  | Gift Fähigkeit erhalten                          | Gift Fähigkeit aktiviert                                                             | Gifteffekt um Spieler                                                  |
+| 11.1  | Level 5 betreten                                 | In Schadensfalle hineingelaufen                                                      | Lebensabzug                                                            |
+| 12.1  | Level 5 betreten                                 | In Betäubungsfalle hineingelaufen                                                    | Betäubt für 2 Runden                                                   |
+| 13.1  |                                                  |                                                                                      | Du hast all deine Leben verloren                                       |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
@@ -117,20 +117,20 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 
 ## 2 Planen
 
-| AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
-| ---- | ----- | --------- | ------------ | ------------- |
-| 1.1.A  |   26.04.2024    |           |       Implemntierung des Todes, des Heros       |        90       |
-| 2.1.B  |   26.04.2024    |     Elias Spycher      |       Bedienung des Characters von Pfeiltasten auf W A S D       |       45        |
-| 3.1.C  |   26.04.2024    |           |       Einstellung der HP       |               |
-| 4.1.D  |   26.04.2024    |           |       Healing bei Betreten von neuem Level       |               |
-| 5.1.E  |   26.04.2024    |           |       Items Erklärungen       |               |
-| 6.1.F  |   26.04.2024    |           |              |               |
-| 7.1.G  |   26.04.2024    |           |              |               |
-| 7.2.H  |   26.04.2024    |           |              |               |
-| 8.1.I  |   26.04.2024    |           |              |               |
-| 8.2.J  |   26.04.2024    |           |              |               |
-| 8.3.K  |   26.04.2024    |           |              |               |
-| 9.1.L  |   26.04.2024    |           |              |               |
+| AP-№  | Frist      | Zuständig     | Beschreibung                                         | geplante Zeit |
+| ----- | ---------- | ------------- | ---------------------------------------------------- | ------------- |
+| 1.1.A | 26.04.2024 |               | Implementierung des Todes, des Heros                 | 90'           |
+| 2.1.B | 26.04.2024 | Elias Spycher | Bedienung des Characters von Pfeiltasten auf W A S D | 45'           |
+| 3.1.C | 26.04.2024 | Robin Sacher  | Einstellung der HP                                   | 10'           |
+| 4.1.D | 26.04.2024 | Robin Sacher  | Healing bei Betreten von neuem Level                 | 30'           |
+| 5.1.E | 26.04.2024 |               | Items Erklärungen                                    |               |
+| 6.1.F | 26.04.2024 |               |                                                      |               |
+| 7.1.G | 26.04.2024 | Robin Sacher  | Implementierung des Drachen als Endboss              | 45'           |
+| 7.2.H | 26.04.2024 | Robin Sacher  | Implementierung des Drachen als Endboss              | 45'           |
+| 8.1.I | 26.04.2024 |               |                                                      |               |
+| 8.2.J | 26.04.2024 |               |                                                      |               |
+| 8.3.K | 26.04.2024 |               |                                                      |               |
+| 9.1.L | 26.04.2024 |               |                                                      |               |
 
 Total:
 
@@ -144,10 +144,16 @@ Total:
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 2.1.B|   15.03.2024    |     Elias Spycher      |       45        |          10         |
-| ...  |       |           |               |                   |
+| AP-№  | Datum      | Zuständig     | geplante Zeit | tatsächliche Zeit |
+| ----- | ---------- | ------------- | ------------- | ----------------- |
+| 1.1.A |            |               |               |                   |
+| 2.1.B | 15.03.2024 | Elias Spycher | 45'           | 10'               |
+| 3.1.C | 16.03.2024 | Robin Sacher  | 10'           | 5'                |
+| 4.1.D | 16.03.2024 | Robin Sacher  | 30'           | 30'               |
+| 5.1.E |            |               |               |                   |
+| 6.1.F |            |               |               |                   |
+| 7.1.G | 16.03.2024 | Robin Sacher  | 45'           | 60'               |
+| 7.2.H | 16.03.2024 | Robin Sacher  | 45            | 30'               |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
