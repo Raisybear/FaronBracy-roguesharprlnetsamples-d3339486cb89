@@ -126,13 +126,13 @@ namespace RogueSharpRLNetSamples.Systems
       {
          int hits = 0;
 
-         attackMessage.AppendFormat( "{0} attacks {1} and rolls: ", attacker.Name, defender.Name );
+         //attackMessage.AppendFormat( "{0} attacks {1} and rolls: ", attacker.Name, defender.Name );
          DiceExpression attackDice = new DiceExpression().Dice( attacker.Attack, 100 );
 
          DiceResult attackResult = attackDice.Roll();
          foreach ( TermResult termResult in attackResult.Results )
          {
-            attackMessage.Append( termResult.Value + ", " );
+            //attackMessage.Append( termResult.Value + ", " );
             if ( termResult.Value >= 100 - attacker.AttackChance )
             {
                hits++;
@@ -148,24 +148,24 @@ namespace RogueSharpRLNetSamples.Systems
 
          if ( hits > 0 )
          {
-            attackMessage.AppendFormat( "scoring {0} hits.", hits );
-            defenseMessage.AppendFormat( "  {0} defends and rolls: ", defender.Name );
+            //attackMessage.AppendFormat( "scoring {0} hits.", hits );
+            //defenseMessage.AppendFormat( "  {0} defends and rolls: ", defender.Name );
             DiceExpression defenseDice = new DiceExpression().Dice( defender.Defense, 100 );
 
             DiceResult defenseRoll = defenseDice.Roll();
             foreach ( TermResult termResult in defenseRoll.Results )
             {
-               defenseMessage.Append( termResult.Value + ", " );
+               //defenseMessage.Append( termResult.Value + ", " );
                if ( termResult.Value >= 100 - defender.DefenseChance )
                {
                   blocks++;
                }
             }
-            defenseMessage.AppendFormat( "resulting in {0} blocks.", blocks );
+            //defenseMessage.AppendFormat( "resulting in {0} blocks.", blocks );
          }
          else
          {
-            attackMessage.Append( "and misses completely." );
+            //attackMessage.Append( "and misses completely." );
          }
 
          return blocks;
@@ -177,8 +177,6 @@ namespace RogueSharpRLNetSamples.Systems
          {
             defender.Health = defender.Health - damage;
 
-            Game.MessageLog.Add( $"  {defender.Name} was hit for {damage} damage" );
-
             if ( defender.Health <= 0 )
             {
                ResolveDeath( defender );
@@ -186,7 +184,7 @@ namespace RogueSharpRLNetSamples.Systems
          }
          else
          {
-            Game.MessageLog.Add( $"  {defender.Name} blocked all damage" );
+
          }
       }
 
@@ -218,8 +216,6 @@ namespace RogueSharpRLNetSamples.Systems
             }
             Game.DungeonMap.AddGold( defender.X, defender.Y, defender.Gold );
             Game.DungeonMap.RemoveMonster( (Monster) defender );
-
-            Game.MessageLog.Add( $"  {defender.Name} died and dropped {defender.Gold} gold" );
          }
       }
 
