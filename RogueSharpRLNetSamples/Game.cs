@@ -40,11 +40,7 @@ namespace RogueSharpRLNetSamples
 
       public static void ResetAndRestartGame()
       {
-         // Zurücksetzen der Konsole
-         Console.Clear();
-
-         // Starten einer neuen Instanz des Spiels
-         Main();
+         Environment.Exit(0);
       }
 
       public static void Main()
