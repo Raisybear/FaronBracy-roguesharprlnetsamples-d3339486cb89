@@ -111,10 +111,10 @@ namespace RogueSharpRLNetSamples.Systems
 
          int blocks = ResolveDefense( defender, hits, attackMessage, defenseMessage );
 
-         Game.MessageLog.Add( attackMessage.ToString() );
+         //Game.MessageLog.Add( attackMessage.ToString() );
          if ( !string.IsNullOrWhiteSpace( defenseMessage.ToString() ) )
          {
-            Game.MessageLog.Add( defenseMessage.ToString() );
+            //Game.MessageLog.Add( defenseMessage.ToString() );
          }
 
          int damage = hits - blocks;
@@ -194,7 +194,7 @@ namespace RogueSharpRLNetSamples.Systems
          {
             Game.MessageLog.Add( $"  {defender.Name} was killed, GAME OVER MAN!" );
 
-                Game.ResetAndRestartGame();
+                Environment.Exit(0);
          }
          else if ( defender is Monster )
          {
