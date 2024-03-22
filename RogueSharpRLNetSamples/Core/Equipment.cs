@@ -79,28 +79,28 @@ namespace RogueSharpRLNetSamples.Core
          if ( this is HeadEquipment )
          {
             actor.Head = this as HeadEquipment;
-            Game.MessageLog.Add( $"{actor.Name} picked up a {Name} helmet" );
+            Game.MessageLog.Add( $"{actor.Name} picked up a {Name} helmet, it increases the Dodge chance." );
             return true;
          }
 
          if ( this is BodyEquipment )
          {
             actor.Body = this as BodyEquipment;
-            Game.MessageLog.Add( $"{actor.Name} picked up {Name} body armor" );
+            Game.MessageLog.Add( $"{actor.Name} picked up {Name} body armor, it increases the Dodge chance." );
             return true;
          }
 
          if ( this is HandEquipment )
          {
             actor.Hand = this as HandEquipment;
-            Game.MessageLog.Add( $"{actor.Name} picked up a {Name}" );
+            Game.MessageLog.Add( $"{actor.Name} picked up a {Name}, it increases Damage dealt." );
             return true;
          }
 
          if ( this is FeetEquipment )
          {
             actor.Feet = this as FeetEquipment;
-            Game.MessageLog.Add( $"{actor.Name} picked up {Name} boots" );
+            Game.MessageLog.Add( $"{actor.Name} picked up {Name} boots, it increases the Dodge chance." );
             return true;
          }
 

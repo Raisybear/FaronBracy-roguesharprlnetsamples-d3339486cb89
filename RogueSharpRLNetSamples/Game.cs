@@ -38,11 +38,6 @@ namespace RogueSharpRLNetSamples
       public static TargetingSystem TargetingSystem { get; private set; }
       public static IRandom Random { get; private set; }
 
-      public static void ResetAndRestartGame()
-      {
-         Environment.Exit(0);
-      }
-
       public static void Main()
       {
          string fontFileName = "terminal8x8.png";
@@ -52,8 +47,10 @@ namespace RogueSharpRLNetSamples
          Random = new DotNetRandom( seed );
 
          MessageLog = new MessageLog();
-         MessageLog.Add( "The rogue arrives on level 1" );
-         MessageLog.Add( $"Level created with seed '{seed}'" );
+         MessageLog.Add( "The feared rogue Mr.Schneider arrives before the big tower of plagiarism.");
+         MessageLog.Add( "He was sent by the administration of the holy BBB veil.");
+         MessageLog.Add( "His Mission is to utterly destroy this bothersome behaviour against their will.");
+
 
          Player = new Player();
          SchedulingSystem = new SchedulingSystem();

@@ -18,7 +18,6 @@ namespace RogueSharpRLNetSamples.Behaviors
             monsterFov.ComputeFov( monster.X, monster.Y, monster.Awareness, true );
             if ( monsterFov.IsInFov( player.X, player.Y ) )
             {
-               Game.MessageLog.Add( $"{monster.Name} is eager to fight {player.Name}" );
                monster.TurnsAlerted = 1;
             }
          }
@@ -36,7 +35,7 @@ namespace RogueSharpRLNetSamples.Behaviors
             }
             catch ( PathNotFoundException )
             {
-               Game.MessageLog.Add( $"{monster.Name} waits for a turn" );
+
             }
 
             dungeonMap.SetIsWalkable( monster.X, monster.Y, false );
@@ -50,7 +49,7 @@ namespace RogueSharpRLNetSamples.Behaviors
                }
                catch ( NoMoreStepsException )
                {
-                  Game.MessageLog.Add( $"{monster.Name} waits for a turn" );
+
                }
             }
 

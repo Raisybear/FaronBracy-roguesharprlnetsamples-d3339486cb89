@@ -118,8 +118,6 @@ namespace RogueSharpRLNetSamples.Core
             door.IsOpen = true;
             var cell = GetCell( x, y );
             SetCellProperties( x, y, true, true, cell.IsExplored );
-
-            Game.MessageLog.Add( $"{actor.Name} opened a door" );
          }
       }
 
