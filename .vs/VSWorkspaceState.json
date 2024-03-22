@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RogueSharpRLNetSamples",
+    "\\RogueSharpRLNetSamples\\Behaviors",
+    "\\RogueSharpRLNetSamples\\Core",
+    "\\RogueSharpRLNetSamples\\Equipment",
+    "\\RogueSharpRLNetSamples\\Interfaces",
+    "\\RogueSharpRLNetSamples\\Items",
+    "\\RogueSharpRLNetSamples\\Monsters",
+    "\\RogueSharpRLNetSamples\\Properties",
+    "\\RogueSharpRLNetSamples\\Systems"
   ],
-  "SelectedNode": "\\C:\\Users\\elias\\Source\\Repos\\LA1304RPG",
+  "SelectedNode": "\\RogueSharpRLNetSamples\\Core\\Ability.cs",
   "PreviewInSolutionExplorer": false
 }
