@@ -123,8 +123,8 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 2.1.B | 26.04.2024 | Elias Spycher | Bedienung des Characters von Pfeiltasten auf W A S D | 45'           |
 | 3.1.C | 26.04.2024 | Robin Sacher  | Einstellung der HP                                   | 10'           |
 | 4.1.D | 26.04.2024 | Robin Sacher  | Healing bei Betreten von neuem Level                 | 30'           |
-| 5.1.E | 26.04.2024 |               | Items Erklärungen                                    |               |
-| 6.1.F | 26.04.2024 |               |                                                      |               |
+| 5.1.E | 26.04.2024 | Elias Spycher | Items Erklärungen                                    | 45'           |
+| 6.1.F | 26.04.2024 | Elias Spycher | Story wird erklärt                                   | 45'           |
 | 7.1.G | 26.04.2024 | Robin Sacher  | Implementierung des Drachen als Endboss              | 45'           |
 | 7.2.H | 26.04.2024 | Robin Sacher  | Implementierung des Drachen als Endboss              | 45'           |
 | 8.1.I | 26.04.2024 |               |                                                      |               |
@@ -150,8 +150,8 @@ Total:
 | 2.1.B | 15.03.2024 | Elias Spycher | 45'           | 10'               |
 | 3.1.C | 16.03.2024 | Robin Sacher  | 10'           | 5'                |
 | 4.1.D | 16.03.2024 | Robin Sacher  | 30'           | 30'               |
-| 5.1.E |            |               |               |                   |
-| 6.1.F |            |               |               |                   |
+| 5.1.E | 22.03.2024 | Elias Spycher | 45'           | 45'               |
+| 6.1.F | 22.03.2024 | Elias Spycher | 45'           | 45'               |
 | 7.1.G | 16.03.2024 | Robin Sacher  | 45'           | 60'               |
 | 7.2.H | 16.03.2024 | Robin Sacher  | 45            | 30'               |
 
