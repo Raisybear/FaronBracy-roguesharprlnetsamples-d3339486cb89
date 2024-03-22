@@ -119,7 +119,7 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 
 | AP-№  | Frist      | Zuständig     | Beschreibung                                         | geplante Zeit |
 | ----- | ---------- | ------------- | ---------------------------------------------------- | ------------- |
-| 1.1.A | 26.04.2024 |               | Implementierung des Todes, des Heros                 | 90'           |
+| 1.1.A | 26.04.2024 | Elias Spycher | Implementierung des Todes, des Heros                 | 90'           |
 | 2.1.B | 26.04.2024 | Elias Spycher | Bedienung des Characters von Pfeiltasten auf W A S D | 45'           |
 | 3.1.C | 26.04.2024 | Robin Sacher  | Einstellung der HP                                   | 10'           |
 | 4.1.D | 26.04.2024 | Robin Sacher  | Healing bei Betreten von neuem Level                 | 30'           |
