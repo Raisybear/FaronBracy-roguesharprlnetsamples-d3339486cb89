@@ -146,7 +146,7 @@ Total:
 
 | AP-№  | Datum      | Zuständig     | geplante Zeit | tatsächliche Zeit |
 | ----- | ---------- | ------------- | ------------- | ----------------- |
-| 1.1.A |            |               |               |                   |
+| 1.1.A | 15.03.2024 | Elias Spycher | 90'           | 30'               |
 | 2.1.B | 15.03.2024 | Elias Spycher | 45'           | 10'               |
 | 3.1.C | 16.03.2024 | Robin Sacher  | 10'           | 5'                |
 | 4.1.D | 16.03.2024 | Robin Sacher  | 30'           | 30'               |
