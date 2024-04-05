@@ -53,7 +53,7 @@ SOFTWARE.
 | ---------- | ------- | ------------------------------------------------------------------------------------------------- |
 | 08.03.2024 | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben, Testfälle erstellt             |
 | 15.03.2024 | 1.0.1   | Dragon als Monster hinzugefügt, Neustart des Spiels nach dem Tod, Arbeitspakete, Use Case Diagramm |
-| 22.03.2024 | 1.0.0   |                                                                                                   |
+| 22.03.2024 | 1.0.2   | Sound Design hinzugefügt, Shop ist implementiert, noch nicht funktionsfähig, Poisen implementiert, noch nicht funktionsfähig.  |
 | 05.04.2024 | 1.0.0   |                                                                                                   |
 | 26.04.2024 | 1.0.0   |                                                                                                   |
 
@@ -61,7 +61,7 @@ SOFTWARE.
 
 ### 1.1 Ihr Projekt
 
-In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 umgesetzt.
+In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 umgesetzt. Wir ändern die Grundfunktion des Spiels nicht, aber wir fügen neue Monster, Abilities, Balance Changes, Sounds und vieles Mehr hinzu.
 
 ### 1.2 User Stories
 
@@ -83,7 +83,7 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 11.1 | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die Lebenspunkte abzieht, damit es schwieriger wird.                                              |
 | 12.1 | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die meine Spielfigur für zwei Runden bewegungsunfähig macht, damit es schwieriger wird.           |
 | 13.1 | Kann            | Funktional | Als User möchte ich, dass es eine kleine Chance gibt, dass ich mit einem Angriff extra Schaden machen kann, damit die Kämpfe spannender werden. |
-| 14.1 | Kann            | Funktional |                                                                                                                                                 |
+| 14.1 | Kann            | Funktional | Als User möchte ich, Sounds im Spiel haben wenn ich Türen betrete, Treppen hochgehe, Monster töte etc, damit mein Spielerlebniss Intensiver ist.                                                                                                                                                |
 
 ### 1.3 Testfälle
 
@@ -127,11 +127,15 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 6.1.F | 26.04.2024 | Elias Spycher | Story wird erklärt                                   | 45'           |
 | 7.1.G | 26.04.2024 | Robin Sacher  | Implementierung des Drachen als Endboss              | 45'           |
 | 7.2.H | 26.04.2024 | Robin Sacher  | Implementierung des Drachen als Endboss              | 45'           |
-| 8.1.I | 26.04.2024 |               |                                                      |               |
-| 8.2.J | 26.04.2024 |               |                                                      |               |
-| 8.3.K | 26.04.2024 |               |                                                      |               |
-| 9.1.L | 26.04.2024 |               |                                                      |               |
-
+| 8.1.I | 26.04.2024 | Robin Sacher  | Implementierung Shop                                 | 45'              |
+| 8.1.J | 26.04.2024 | Robin Sacher  | Implementierung Shop                                 | 45'              |
+| 8.2.K | 26.04.2024 | Robin Sacher  | Heal im Shop Shop                                    | 45'              |
+| 8.3.L | 26.04.2024 | Robin Sacher  | Equipment im Shop                                    | 45'              |
+| 9.1.M | 26.04.2024 |               |                                                      |               |
+| 10.1.N | 26.04.2024 |Julian Hitz   | Gift Ability                                         | 45'              |
+| 10.1.O | 26.04.2024 |Julian Hitz   | Gift Ability                                         | 45'              |
+| 14.1.P | 26.04.2024 |Elias Spycher | Sound Design 1                                       | 45'              |
+| 14.1.Q | 26.04.2024 |Elias Spycher | Sound Design 2                                       | 45'              |
 Total:
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
@@ -140,7 +144,7 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Game Loop ist sehr komplex, aus diesem Grund wurde kein richtiger Death Screen implemntiert, trotz langem probieren, sondern ein imidiate shutdown implementiert, alos wenn man stirbt, dann wird die konsole beendet.
 
 ## 4 Realisieren
 
