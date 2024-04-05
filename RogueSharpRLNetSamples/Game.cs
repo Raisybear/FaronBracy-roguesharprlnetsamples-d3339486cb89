@@ -5,6 +5,9 @@ using RogueSharp.Random;
 using RogueSharpRLNetSamples.Core;
 using RogueSharpRLNetSamples.Items;
 using RogueSharpRLNetSamples.Systems;
+using NAudio.Wave;
+using System.Deployment.Internal;
+using System.Threading;
 
 namespace RogueSharpRLNetSamples
 {
@@ -36,6 +39,7 @@ namespace RogueSharpRLNetSamples
       public static CommandSystem CommandSystem { get; private set; }
       public static SchedulingSystem SchedulingSystem { get; private set; }
       public static TargetingSystem TargetingSystem { get; private set; }
+      public static AudioDesign AudioDesign { get; private set; }
       public static IRandom Random { get; private set; }
 
       public static void Main()
@@ -43,14 +47,19 @@ namespace RogueSharpRLNetSamples
          string fontFileName = "terminal8x8.png";
          string consoleTitle = "RougeSharp Level 1";
 
-         int seed = (int) DateTime.UtcNow.Ticks;
-         Random = new DotNetRandom( seed );
+            //https://www.luisllamas.es/en/naudio/
+
+            string audioFilePath = "C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\Terraria Music - Corruption.wav";
+
+            AudioDesign = new AudioDesign(audioFilePath);
 
          MessageLog = new MessageLog();
-         MessageLog.Add( "The feared rogue Mr.Schneider arrives before the big tower of plagiarism.");
-         MessageLog.Add( "He was sent by the administration of the holy BBB veil.");
-         MessageLog.Add( "His Mission is to utterly destroy this bothersome behaviour against their will.");
+         MessageLog.Add("The feared rogue Mr.Schneider arrives before the big tower of plagiarism.");
+         MessageLog.Add("He was sent by the administration of the holy BBB veil.");
+         MessageLog.Add("His Mission is to utterly destroy this bothersome behaviour against their will.");
 
+         int seed = (int) DateTime.UtcNow.Ticks;
+         Random = new DotNetRandom( seed );
 
          Player = new Player();
          SchedulingSystem = new SchedulingSystem();
@@ -93,6 +102,8 @@ namespace RogueSharpRLNetSamples
          {
             if ( keyPress != null )
             {
+                    AudioDesign.HandleAudioPlayback();
+
                if ( keyPress.Key == RLKey.W )
                {
                   didPlayerAct = CommandSystem.MovePlayer( Direction.Up );

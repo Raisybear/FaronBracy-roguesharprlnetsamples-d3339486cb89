@@ -1,4 +1,5 @@
-﻿using RogueSharp;
+﻿using NAudio.Wave;
+using RogueSharp;
 using RogueSharp.Random;
 using RogueSharpRLNetSamples.Core;
 
@@ -14,7 +15,14 @@ namespace RogueSharpRLNetSamples.Items
 
       protected override bool UseItem()
       {
-         DungeonMap map = Game.DungeonMap;
+            var waveOut = new WaveOut();
+            var audioFile = new AudioFileReader("C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\DestructionBeam.wav");
+
+            waveOut.Volume = 0.2f;
+            waveOut.Init(audioFile);
+            waveOut.Play();
+
+            DungeonMap map = Game.DungeonMap;
          Player player = Game.Player;
          Point edgePoint = GetRandomEdgePoint( map );
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using NAudio.Wave;
 using RLNET;
 using RogueSharp;
 using RogueSharp.DiceNotation;
@@ -179,7 +180,15 @@ namespace RogueSharpRLNetSamples.Systems
 
             if ( defender.Health <= 0 )
             {
-               ResolveDeath( defender );
+                    var waveOut = new WaveOut();
+                    var audioFile = new AudioFileReader("C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\MonsterDeathSound.wav");
+
+                    waveOut.Volume = 0.2f;
+                    waveOut.Init(audioFile);
+                    waveOut.Play();
+
+
+                    ResolveDeath( defender );
             }
          }
          else
@@ -198,6 +207,8 @@ namespace RogueSharpRLNetSamples.Systems
          }
          else if ( defender is Monster )
          {
+
+
             if ( defender.Head != null && defender.Head != HeadEquipment.None() )
             {
                Game.DungeonMap.AddTreasure( defender.X, defender.Y, defender.Head );

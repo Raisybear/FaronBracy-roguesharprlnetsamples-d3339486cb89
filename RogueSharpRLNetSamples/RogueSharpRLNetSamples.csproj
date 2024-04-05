@@ -129,6 +129,7 @@
     <Compile Include="Items\Whetstone.cs" />
     <Compile Include="Systems\AbilityGenerator.cs" />
     <Compile Include="Systems\ActorGenerator.cs" />
+    <Compile Include="Systems\AudioDesign.cs" />
     <Compile Include="Systems\EquipmentGenerator.cs" />
     <Compile Include="Systems\ItemGenerator.cs" />
     <Compile Include="Systems\MapGenerator.cs" />
@@ -152,6 +153,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Sounds\DestructionBeam.wav" />
+    <Content Include="Sounds\DialogueSound.wav" />
+    <Content Include="Sounds\Legoyodadeathsound.wav" />
+    <Content Include="Sounds\MonsterDeathSound.wav" />
+    <Content Include="Sounds\Terraria - Magic Mirror Sound.wav" />
+    <Content Include="Sounds\Terraria Music - Corruption.wav" />
     <Content Include="terminal8x8.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
