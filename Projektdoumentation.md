@@ -53,8 +53,8 @@ SOFTWARE.
 | ---------- | ------- | ------------------------------------------------------------------------------------------------- |
 | 08.03.2024 | 1.0.0   | Das Projekt wurde auf Github hochgeladen. Userstories geschrieben, Testfälle erstellt             |
 | 15.03.2024 | 1.0.1   | Dragon als Monster hinzugefügt, Neustart des Spiels nach dem Tod, Arbeitspakete, Use Case Diagramm |
-| 22.03.2024 | 1.0.2   | Sound Design hinzugefügt, Shop ist implementiert, noch nicht funktionsfähig, Poisen implementiert, noch nicht funktionsfähig.  |
-| 05.04.2024 | 1.0.0   |                                                                                                   |
+| 22.03.2024 | 1.0.2   | Sound Design hinzugefügt, Shop ist implementiert, noch nicht funktionsfähig, Poison implementiert, noch nicht funktionsfähig.  |
+| 05.04.2024 | 1.1.0   | Sound Design vielfältig erweiterrt, Shop weiter entwickelt, Poison weiter implementiert, Beides noch nicht vollständig Funktionsfähig     |
 | 26.04.2024 | 1.0.0   |                                                                                                   |
 
 ## 1 Informieren
