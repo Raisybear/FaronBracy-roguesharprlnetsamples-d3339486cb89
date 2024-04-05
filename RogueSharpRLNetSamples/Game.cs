@@ -39,6 +39,7 @@ namespace RogueSharpRLNetSamples
       public static CommandSystem CommandSystem { get; private set; }
       public static SchedulingSystem SchedulingSystem { get; private set; }
       public static TargetingSystem TargetingSystem { get; private set; }
+      public static AudioDesign AudioDesign { get; private set; }
       public static IRandom Random { get; private set; }
 
       public static void Main()
@@ -46,22 +47,16 @@ namespace RogueSharpRLNetSamples
          string fontFileName = "terminal8x8.png";
          string consoleTitle = "RougeSharp Level 1";
 
-
-            var waveOut = new WaveOut();
-            var audioFile = new AudioFileReader("C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\DialogueSound.wav");
-
-            waveOut.Init(audioFile);
-            waveOut.Play();
-
             //https://www.luisllamas.es/en/naudio/
 
-            MessageLog = new MessageLog();
-            MessageLog.Add("The feared rogue Mr.Schneider arrives before the big tower of plagiarism.");
-            MessageLog.Add("He was sent by the administration of the holy BBB veil.");
-            MessageLog.Add("His Mission is to utterly destroy this bothersome behaviour against their will.");
+            string audioFilePath = "C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\Terraria Music - Corruption.wav";
 
-            Thread.Sleep(5000);
-            waveOut.Stop();
+            AudioDesign = new AudioDesign(audioFilePath);
+
+         MessageLog = new MessageLog();
+         MessageLog.Add("The feared rogue Mr.Schneider arrives before the big tower of plagiarism.");
+         MessageLog.Add("He was sent by the administration of the holy BBB veil.");
+         MessageLog.Add("His Mission is to utterly destroy this bothersome behaviour against their will.");
 
          int seed = (int) DateTime.UtcNow.Ticks;
          Random = new DotNetRandom( seed );
@@ -107,6 +102,8 @@ namespace RogueSharpRLNetSamples
          {
             if ( keyPress != null )
             {
+                    AudioDesign.HandleAudioPlayback();
+
                if ( keyPress.Key == RLKey.W )
                {
                   didPlayerAct = CommandSystem.MovePlayer( Direction.Up );
