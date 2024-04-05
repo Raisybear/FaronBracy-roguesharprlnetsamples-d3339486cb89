@@ -58,7 +58,7 @@ namespace RogueSharpRLNetSamples
          Player = new Player();
          SchedulingSystem = new SchedulingSystem();
                                                                              //20 //13 //7
-         MapGenerator mapGenerator = new MapGenerator( _mapWidth, _mapHeight, 30, 20, 7, _mapLevel );
+         MapGenerator mapGenerator = new MapGenerator( _mapWidth, _mapHeight, 30, 20, 7, _mapLevel);
          DungeonMap = mapGenerator.CreateMap();
                                                                                      //8 //8
          _rootConsole = new RLRootConsole( fontFileName, _screenWidth, _screenHeight, 8, 8, 1f, consoleTitle );

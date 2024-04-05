@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RogueSharpRLNetSamples",
+    "\\RogueSharpRLNetSamples\\Systems"
   ],
-  "SelectedNode": "\\C:\\Users\\elias\\Source\\Repos\\LA1304RPG",
+  "SelectedNode": "\\RogueSharpRLNetSamples\\Systems\\MapGenerator.cs",
   "PreviewInSolutionExplorer": false
 }

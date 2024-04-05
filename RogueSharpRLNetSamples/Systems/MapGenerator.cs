@@ -15,8 +15,9 @@ namespace RogueSharpRLNetSamples.Systems
         private readonly int _roomMaxSize;
         private readonly int _roomMinSize;
         private readonly int _level;
-        private readonly DungeonMap _map;
+        public readonly DungeonMap _map;
         private readonly EquipmentGenerator _equipmentGenerator;
+        private readonly int _cost;
 
         public MapGenerator(int width, int height, int maxRooms, int roomMaxSize, int roomMinSize, int level)
         {
@@ -28,11 +29,14 @@ namespace RogueSharpRLNetSamples.Systems
             _level = level;
             _map = new DungeonMap();
             _equipmentGenerator = new EquipmentGenerator(level);
+            _cost = 20;
         }
 
         public DungeonMap CreateMap()
         {
             _map.Initialize(_width, _height);
+
+            bool isFirstRoom = true; // Variable, um zu verfolgen, ob es sich um den ersten Raum handelt
 
             for (int r = 0; r < _maxRooms; r++)
             {
@@ -43,6 +47,7 @@ namespace RogueSharpRLNetSamples.Systems
 
                 var newRoom = new Rectangle(roomXPosition, roomYPosition, roomWidth, roomHeight);
                 bool newRoomIntersects = _map.Rooms.Any(room => newRoom.Intersects(room));
+
                 if (!newRoomIntersects)
                 {
                     _map.Rooms.Add(newRoom);
@@ -95,6 +100,10 @@ namespace RogueSharpRLNetSamples.Systems
 
             PlaceAbility();
 
+            if (_level == 1)
+            {
+                InitializeFirstRoomAsShop();
+            }
             return _map;
         }
 
@@ -267,6 +276,23 @@ namespace RogueSharpRLNetSamples.Systems
                             _map.AddTreasure(location.X, location.Y, item);
                         }
                     }
+                }
+            }
+        }
+
+        public void InitializeFirstRoomAsShop()
+        {
+
+            List<Core.Equipment> shopInventory = _equipmentGenerator.CreateShopEquipmentList();
+
+            var firstRoom = _map.Rooms[0];
+            foreach (var equipment in shopInventory)
+            {
+
+                Point location = _map.GetRandomLocationInRoom(firstRoom);
+                if (location != null)
+                {
+                    _map.AddTreasure(location.X, location.Y, equipment);
                 }
             }
         }
