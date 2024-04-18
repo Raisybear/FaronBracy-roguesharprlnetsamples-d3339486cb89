@@ -95,6 +95,11 @@ namespace RogueSharpRLNetSamples.Systems
 
             PlaceAbility();
 
+            if (_level == 1)
+            {
+                InitializeFirstRoomAsShop();
+            }
+
             return _map;
         }
 
@@ -267,6 +272,22 @@ namespace RogueSharpRLNetSamples.Systems
                             _map.AddTreasure(location.X, location.Y, item);
                         }
                     }
+                }
+            }
+        }
+
+        public void InitializeFirstRoomAsShop()
+        {
+            List<Core.Equipment> shopInventory = _equipmentGenerator.CreateShopEquipmentList();
+
+            var firstRoom = _map.Rooms[0];
+            foreach (var equipment in shopInventory)
+            {
+
+                Point location = _map.GetRandomLocationInRoom(firstRoom);
+                if (location != null)
+                {
+                    _map.AddTreasure(location.X, location.Y, equipment);
                 }
             }
         }
