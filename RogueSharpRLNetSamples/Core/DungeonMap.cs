@@ -3,6 +3,7 @@ using System.Linq;
 using RLNET;
 using RogueSharp;
 using RogueSharpRLNetSamples.Interfaces;
+using RogueSharpRLNetSamples.Systems;
 
 namespace RogueSharpRLNetSamples.Core
 {

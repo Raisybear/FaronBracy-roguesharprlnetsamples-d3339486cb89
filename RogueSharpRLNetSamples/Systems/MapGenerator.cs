@@ -1,6 +1,8 @@
 using RogueSharp;
 using RogueSharp.DiceNotation;
+using RogueSharpRLNetSamples.Abilities;
 using RogueSharpRLNetSamples.Core;
+using RogueSharpRLNetSamples.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -95,9 +97,11 @@ namespace RogueSharpRLNetSamples.Systems
 
             PlaceAbility();
 
-            if (_level == 1)
+
+            if (_level == 5 && Game.Player.Gold > 500)
             {
                 InitializeFirstRoomAsShop();
+                Game.Player.Gold -= 400;
             }
 
             return _map;
@@ -283,7 +287,6 @@ namespace RogueSharpRLNetSamples.Systems
             var firstRoom = _map.Rooms[0];
             foreach (var equipment in shopInventory)
             {
-
                 Point location = _map.GetRandomLocationInRoom(firstRoom);
                 if (location != null)
                 {
