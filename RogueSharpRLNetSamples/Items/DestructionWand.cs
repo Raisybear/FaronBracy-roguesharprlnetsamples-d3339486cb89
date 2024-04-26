@@ -16,7 +16,7 @@ namespace RogueSharpRLNetSamples.Items
       protected override bool UseItem()
       {
             var waveOut = new WaveOut();
-            var audioFile = new AudioFileReader("C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\DestructionBeam.wav");
+            var audioFile = new AudioFileReader("..\\..\\..\\..\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\DestructionBeam.wav");
 
             waveOut.Volume = 0.2f;
             waveOut.Init(audioFile);

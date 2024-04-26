@@ -49,7 +49,7 @@ namespace RogueSharpRLNetSamples
 
             //https://www.luisllamas.es/en/naudio/
 
-            string audioFilePath = "C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\Terraria Music - Corruption.wav";
+            string audioFilePath = "..\\..\\..\\..\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\Terraria Music - Corruption.wav";
 
             AudioDesign = new AudioDesign(audioFilePath);
 

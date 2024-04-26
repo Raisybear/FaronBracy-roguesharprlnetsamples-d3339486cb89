@@ -181,7 +181,7 @@ namespace RogueSharpRLNetSamples.Systems
             if ( defender.Health <= 0 )
             {
                     var waveOut = new WaveOut();
-                    var audioFile = new AudioFileReader("C:\\Users\\elias\\source\\repos\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\MonsterDeathSound.wav");
+                    var audioFile = new AudioFileReader("..\\..\\..\\..\\LA1304RPG\\RogueSharpRLNetSamples\\Sounds\\MonsterDeathSound.wav");
 
                     waveOut.Volume = 0.2f;
                     waveOut.Init(audioFile);
