@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RogueSharpRLNetSamples"
+    "\\RogueSharpRLNetSamples",
+    "\\RogueSharpRLNetSamples\\Core",
+    "\\RogueSharpRLNetSamples\\Systems"
   ],
-  "SelectedNode": "\\RogueSharpRLNetSamples.sln",
+  "SelectedNode": "\\RogueSharpRLNetSamples\\Core\\DungeonMap.cs",
   "PreviewInSolutionExplorer": false
 }

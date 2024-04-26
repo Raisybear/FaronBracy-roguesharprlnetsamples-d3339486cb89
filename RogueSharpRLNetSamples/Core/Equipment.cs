@@ -2,7 +2,6 @@ using RLNET;
 using RogueSharp;
 using RogueSharpRLNetSamples.Equipment;
 using RogueSharpRLNetSamples.Interfaces;
-using System;
 
 namespace RogueSharpRLNetSamples.Core
 {
@@ -77,77 +76,33 @@ namespace RogueSharpRLNetSamples.Core
 
         public bool PickUp(IActor actor)
         {
-            if (Convert.ToBoolean(Game.DungeonMap.Rooms[0]))
+            if (this is HeadEquipment)
             {
-                if (actor.Gold >= 20)
-                {
-                    if (this is HeadEquipment)
-                    {
-                        actor.Head = this as HeadEquipment;
-                        actor.Gold -= 20;
-                        Game.MessageLog.Add($"{actor.Name} picked up a {Name} helmet");
-                        return true;
-                    }
-
-                    if (this is BodyEquipment)
-                    {
-                        actor.Body = this as BodyEquipment;
-                        actor.Gold -= 20;
-
-                        Game.MessageLog.Add($"{actor.Name} picked up {Name} body armor");
-                        return true;
-                    }
-
-                    if (this is HandEquipment)
-                    {
-                        actor.Hand = this as HandEquipment;
-                        actor.Gold -= 20;
-                        Game.MessageLog.Add($"{actor.Name} picked up a {Name}");
-                        return true;
-                    }
-
-                    if (this is FeetEquipment)
-                    {
-                        actor.Feet = this as FeetEquipment;
-                        actor.Gold -= 20;
-                        Game.MessageLog.Add($"{actor.Name} picked up {Name} boots");
-                        return true;
-                    }
-                }
-                return false;
+                actor.Head = this as HeadEquipment;
+                Game.MessageLog.Add($"{actor.Name} picked up a {Name} helmet");
+                return true;
             }
 
-            if (!Convert.ToBoolean(Game.DungeonMap.Rooms[0]))
+            if (this is BodyEquipment)
             {
-                if (this is HeadEquipment)
-                {
-                    actor.Head = this as HeadEquipment;
-                    Game.MessageLog.Add($"{actor.Name} picked up a {Name} helmet");
-                    return true;
-                }
-
-                if (this is BodyEquipment)
-                {
-                    actor.Body = this as BodyEquipment;
-                    Game.MessageLog.Add($"{actor.Name} picked up {Name} body armor");
-                    return true;
-                }
-
-                if (this is HandEquipment)
-                {
-                    actor.Hand = this as HandEquipment;
-                    Game.MessageLog.Add($"{actor.Name} picked up a {Name}");
-                    return true;
-                }
-
-                if (this is FeetEquipment)
-                {
-                    actor.Feet = this as FeetEquipment;
-                    Game.MessageLog.Add($"{actor.Name} picked up {Name} boots");
-                    return true;
-                }
+                actor.Body = this as BodyEquipment;
+                Game.MessageLog.Add($"{actor.Name} picked up {Name} body armor");
+                return true;
             }
 
+            if (this is HandEquipment)
+            {
+                actor.Hand = this as HandEquipment;
+                Game.MessageLog.Add($"{actor.Name} picked up a {Name}");
+                return true;
+            }
+
+            if (this is FeetEquipment)
+            {
+                actor.Feet = this as FeetEquipment;
+                Game.MessageLog.Add($"{actor.Name} picked up {Name} boots");
+                return true;
+            }
             return false;
         }
 
