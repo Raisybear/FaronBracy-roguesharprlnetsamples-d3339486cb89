@@ -182,6 +182,6 @@ Game Loop ist sehr komplex, aus diesem Grund wurde kein richtiger Death Screen i
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
 ## 6 Auswerten
-Portfolioeintrag Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=dba6b0722940dd1cfc9b
-Portfolioeintrag Elias Spycher:
-Portfolioeintrag Damian Müller:
+- Portfolioeintrag Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=dba6b0722940dd1cfc9b
+- Portfolioeintrag Elias Spycher:
+- Portfolioeintrag Damian Müller:
