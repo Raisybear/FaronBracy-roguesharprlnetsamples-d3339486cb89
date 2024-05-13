@@ -144,7 +144,8 @@ Total:
 
 ## 3 Entscheiden
 
-Game Loop ist sehr komplex, aus diesem Grund wurde kein richtiger Death Screen implemntiert, trotz langem probieren, sondern ein imidiate shutdown implementiert, alos wenn man stirbt, dann wird die konsole beendet.
+Game Loop ist sehr komplex, aus diesem Grund wurde kein richtiger Death Screen implemntiert, trotz langem probieren, sondern ein imidiate shutdown implementiert, also wenn man stirbt, dann wird die konsole beendet.
+Wir haben uns ausserdem dazu entschieden, in dem Shop nur Rüstungsteile zu Verkaufen, da es sonst viel zu stark wäre, wenn man jedes Item im Shop aufsammeln könnte.
 
 ## 4 Realisieren
 
