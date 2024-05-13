@@ -55,7 +55,7 @@ SOFTWARE.
 | 15.03.2024 | 1.0.1   | Dragon als Monster hinzugefügt, Neustart des Spiels nach dem Tod, Arbeitspakete, Use Case Diagramm |
 | 22.03.2024 | 1.0.2   | Sound Design hinzugefügt, Shop ist implementiert, noch nicht funktionsfähig, Poison implementiert, noch nicht funktionsfähig.  |
 | 05.04.2024 | 1.1.0   | Sound Design vielfältig erweiterrt, Shop weiter entwickelt, Poison weiter implementiert, Beides noch nicht vollständig Funktionsfähig     |
-| 26.04.2024 | 1.0.0   |                                                                                                   |
+| 26.04.2024 | 1.2.0   | Viele Fehler behoben, Shop fertiggestellt, Poison weiterentwickelt, noch nicht fertig.                                                                                                  |
 
 ## 1 Informieren
 
@@ -77,13 +77,15 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 7.2  | Muss            | Funktional | Als User möchte ich einen Drachen im Spiel haben, der als Endboss dient, damit ich ein schwieriges Ende habe.                                   |
 | 8.1  | Kann            | Funktional | Als User möchte ich einen Shop haben, um mein Gold verwenden zu können                                                                          |
 | 8.2  | Kann            | Funktional | Als User möchte ich im Shop ein Heiltrank kaufen können, um mich zu heilen                                                                      |
-| 8.3  | Kann            | Funktional | Als User möchte ich, dass man zufällige schon implementierte Items im SHop kaufen kann, um stärker zu werden.                                   |
+| 8.3  | Kann            | Funktional | Als User möchte ich, dass man zufällige schon implementierte Items im Shop kaufen kann, um stärker zu werden.                                   |
 | 9.1  | Muss            | Funktional | Als User möchte ich, dass es ab dem Level 5 Fallen auf der Map gibt, um ein weiteres Hinderniss zu haben.                                       |
 | 10.1 | Kann            | Funktional | Als User möchte ich, dass eine Gift Fähigkeit gibt, damit ich die Gegner besser besiegen kann.                                                  |
 | 11.1 | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die Lebenspunkte abzieht, damit es schwieriger wird.                                              |
 | 12.1 | Kann            | Funktional | Als User möchte ich, dass es eine Falle gibt, die meine Spielfigur für zwei Runden bewegungsunfähig macht, damit es schwieriger wird.           |
 | 13.1 | Kann            | Funktional | Als User möchte ich, dass es eine kleine Chance gibt, dass ich mit einem Angriff extra Schaden machen kann, damit die Kämpfe spannender werden. |
 | 14.1 | Kann            | Funktional | Als User möchte ich, Sounds im Spiel haben wenn ich Türen betrete, Treppen hochgehe, Monster töte etc, damit mein Spielerlebniss Intensiver ist.                                                                                                                                                |
+
+
 
 ### 1.3 Testfälle
 
@@ -107,9 +109,13 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 10.1  | Gift Fähigkeit erhalten                          | Gift Fähigkeit aktiviert                                                             | Gifteffekt um Spieler                                                  |
 | 11.1  | Level 5 betreten                                 | In Schadensfalle hineingelaufen                                                      | Lebensabzug                                                            |
 | 12.1  | Level 5 betreten                                 | In Betäubungsfalle hineingelaufen                                                    | Betäubt für 2 Runden                                                   |
-| 13.1  |                                                  |                                                                                      | Du hast all deine Leben verloren                                       |
+| 13.1  | Gegner angegriffen                               | Bewegungstaste in die Richtug des Gegners                                            | Schaden + 2                                                            |
+| 14.1.1  | Gegner getötet                                 | -                                                                                    | Sound für das Moster töten wird abgespielt                             |
+| 14.1.2  | Spiel gestartet                                | Button für Magic Map                                                                 | Sound für die Magic Map wird abgespielt                                |
+| 14.1.3  | Spiel gestartet                                | W/A/S/D                                                                              | Spielsoundtrack wird abgespielt.                                       |
+| 14.1.4  | Spiel gestartet                                | In das nächste level mit .                                                           | Sound für das Betreten eines neuen Levels wird abgespielt              |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+
 
 ### 1.4 Diagramme
 
@@ -138,9 +144,7 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 14.1.Q | 26.04.2024 |Elias Spycher | Sound Design 2                                       | 45'              |
 Total:
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
@@ -166,21 +170,35 @@ Wir haben uns ausserdem dazu entschieden, in dem Shop nur Rüstungsteile zu Verk
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| TC-№   | Datum      | Resultat | Tester        |
+| ------ | ---------- | -------- | ------------- |
+| 1.1  | 26.04.2023 | OK       | Elias Spycher |
+| 2.1  | 26.04.2023 | OK       | Elias Spycher |
+| 2.2  | 26.04.2023 | OK       | Elias Spycher |
+| 2.3  | 26.04.2023 | OK       | Elias Spycher |
+| 2.4  | 26.04.2023 | OK       | Elias Spycher |
+| 3.1  | 26.04.2023 | OK       | Elias Spycher |
+| 4.1  | 26.04.2023 | OK       | Elias Spycher |
+| 5.1  | 26.04.2023 | NOK       | Elias Spycher |
+| 6.1  | 26.04.2023 | OK       | Elias Spycher |
+| 7.1.1  | 26.04.2023 | OK       | Elias Spycher |
+| 7.2.1  | 26.04.2023 | OK       | Elias Spycher |
+| 8.1.1  | 26.04.2023 | OK       | Elias Spycher |
+| 8.2.1  | 26.04.2023 | OK       | Elias Spycher |
+| 8.3.1  | 26.04.2023 | OK       | Elias Spycher |
+| 9.1  | 26.04.2023 | NOK       | Elias Spycher |
+| 10.1  | 26.04.2023 | NOK       | Elias Spycher |
+| 11.1  | 26.04.2023 | NOK       | Elias Spycher |
+| 12.1  | 26.04.2023 | NOK       | Elias Spycher |
+| 13.1  | 26.04.2023 | NOK       | Elias Spycher |
+| 14.1.1  | 26.04.2023 | OK       | Elias Spycher |
+| 14.1.2  | 26.04.2023 | OK       | Elias Spycher |
+| 14.1.3  | 26.04.2023 | OK       | Elias Spycher |
+| 14.1.4  | 26.04.2023 | NOK       | Elias Spycher |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+### Testbericht
 
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+Unser projekt beinhaltet viele unvollständige Features, die durch die komplexe Struktur des Codes nicht umgesetzt werden konnten
 
 ## 6 Auswerten
 - Portfolioeintrag Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=dba6b0722940dd1cfc9b
