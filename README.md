@@ -139,7 +139,7 @@ In diesem Projekt erweitern wir ein RPG Game. Dies wird in Visual Stduio 2022 um
 | 8.3.L | 26.04.2024 | Robin Sacher  | Equipment im Shop                                    | 45'              |
 | 9.1.M | 26.04.2024 |               |                                                      |               |
 | 10.1.N | 26.04.2024 |Julian Hitz   | Gift Ability                                         | 45'              |
-| 10.1.O | 26.04.2024 |Julian Hitz   | Gift Ability                                         | 45'              |
+| 10.2.O | 26.04.2024 |Julian Hitz   | Gift Ability                                         | 45'              |
 | 14.1.P | 26.04.2024 |Elias Spycher | Sound Design 1                                       | 45'              |
 | 14.1.Q | 26.04.2024 |Elias Spycher | Sound Design 2                                       | 45'              |
 Total:
@@ -163,6 +163,14 @@ Wir haben uns ausserdem dazu entschieden, in dem Shop nur Rüstungsteile zu Verk
 | 6.1.F | 22.03.2024 | Elias Spycher | 45'           | 45'               |
 | 7.1.G | 16.03.2024 | Robin Sacher  | 45'           | 60'               |
 | 7.2.H | 16.03.2024 | Robin Sacher  | 45            | 30'               |
+| 8.1.I | 22.03.2024 | Robin Sacher  | 45            | 180'               |
+| 8.2.J | 29.03.2024 | Robin Sacher  | 45            | 90'               |
+| 8.3.L | 29.03.2024 | Robin Sacher  | 45            | 20'               |
+| 9.1.M |            |                |               |                  |
+| 10.1.N | 16.03.2024 | Julian Hitz  | 45            | 30'               |
+| 10.2.O | 16.03.2024 | Julian Hitz  | 45            | 30'               |
+| 14.1.P | 16.03.2024 | Elias Spycher  | 45            | 30'               |
+| 14.2.Q | 16.03.2024 | Elias Spycher  | 45            | 30'               |
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
