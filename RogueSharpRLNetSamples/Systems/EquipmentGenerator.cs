@@ -44,23 +44,19 @@ namespace RogueSharpRLNetSamples.Systems
         {
             List<Core.Equipment> shopEquipment = new List<Core.Equipment>();
 
-            // Kopfausrüstung hinzufügen
             shopEquipment.Add(HeadEquipment.Leather());
             shopEquipment.Add(HeadEquipment.Chain());
             shopEquipment.Add(HeadEquipment.Plate());
 
-            // Handausrüstung hinzufügen
             shopEquipment.Add(HandEquipment.Dagger());
             shopEquipment.Add(HandEquipment.Sword());
             shopEquipment.Add(HandEquipment.Axe());
             shopEquipment.Add(HandEquipment.TwoHandedSword());
 
-            // Fußausrüstung hinzufügen
             shopEquipment.Add(FeetEquipment.Leather());
             shopEquipment.Add(FeetEquipment.Chain());
             shopEquipment.Add(FeetEquipment.Plate());
 
-            // Körperausrüstung hinzufügen
             shopEquipment.Add(BodyEquipment.Leather());
             shopEquipment.Add(BodyEquipment.Chain());
             shopEquipment.Add(BodyEquipment.Plate());
