@@ -148,8 +148,10 @@ Total:
 
 ## 3 Entscheiden
 
-Game Loop ist sehr komplex, aus diesem Grund wurde kein richtiger Death Screen implemntiert, trotz langem probieren, sondern ein imidiate shutdown implementiert, also wenn man stirbt, dann wird die konsole beendet.
+Game Loop ist sehr komplex, aus diesem Grund wurde kein richtiger Death Screen implementiert, trotz langem probieren, sondern ein imidiate shutdown implementiert, also wenn man stirbt, dann wird die konsole beendet.
 Wir haben uns ausserdem dazu entschieden, in dem Shop nur Rüstungsteile zu Verkaufen, da es sonst viel zu stark wäre, wenn man jedes Item im Shop aufsammeln könnte.
+Damit das Spiel spannender wir und eine richtige Aufgabe erhält haben wir uns dazu entschieden die Story abzuändern.
+Damit das Spiel schwieriger wird haben wir entschieden das das Spiel automatisch beendet wird, sobald der Soundtrack beendet wird, somit gibt es in dem Spiel Zeitdruck.
 
 ## 4 Realisieren
 
