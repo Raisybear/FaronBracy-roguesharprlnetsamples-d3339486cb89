@@ -208,7 +208,7 @@ Damit das Spiel schwieriger wird haben wir entschieden das das Spiel automatisch
 
 ### Testbericht
 
-Unser projekt beinhaltet viele unvollständige Features, die durch die komplexe Struktur des Codes nicht umgesetzt werden konnten
+Unser projekt beinhaltet einige unvollständige Features, die durch die komplexe Struktur des Codes nicht umgesetzt werden konnten.
 
 ## 6 Auswerten
 - Portfolioeintrag Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=dba6b0722940dd1cfc9b
