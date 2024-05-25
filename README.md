@@ -213,4 +213,4 @@ Unser projekt beinhaltet einige unvollständige Features, die durch die komplexe
 ## 6 Auswerten
 - Portfolioeintrag Robin Sacher: https://portfolio.bbbaden.ch/view/view.php?t=dba6b0722940dd1cfc9b
 - Portfolioeintrag Elias Spycher:
-- Portfolioeintrag Julian Hitz:
+- Portfolioeintrag Julian Hitz: https://portfolio.bbbaden.ch/view/view.php?t=50683f3d2105b19a4483
